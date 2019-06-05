@@ -12,10 +12,8 @@ print("You Chose: ", user_choice)
 # VALIDATE INPUTS
 #  3. Create a conditional statement and list to validate.
 
-if user_choice in ["rock", "paper", "scissors"]:
-    print("VALID")
-else:
-    print("INVALID SELECTION; PLEASE TRY AGAIN.")
+if user_choice not in ["rock", "paper", "scissors"]:
+    print("INVALID SELECTION. PLEASE TRY AGAIN.")
     exit()
 
 # GENERATE COMPUTER SELECTION
