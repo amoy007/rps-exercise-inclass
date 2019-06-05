@@ -1,3 +1,5 @@
+import random
+
 print("Rock, Paper, Scissors, Shoot!")
 
 
@@ -20,6 +22,11 @@ if user_choice not in ["rock", "paper", "scissors"]:
 # 
 print("GENERATING...")
 
+computer_choice = random.choice(["rock", "paper", "scissors"])
+
+print("--------------")
+print("GENERATING...")
+print("COMPUTER CHOICE:", computer_choice)
 
 # DETERMINE THE WINNER
 # 
