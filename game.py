@@ -42,16 +42,16 @@ print("COMPUTER CHOICE:", computer_choice)
 if user_choice == computer_choice:
     print("TIE")
 elif user_choice == "rock" and computer_choice == "paper":
-    print("  COMPUTER WINS. SORRY!")
+    print("  COMPUTER WINS. ROCK < PAPER. SORRY!")
 elif user_choice == "rock" and computer_choice == "scissors":
-    print("  YOU WIN. HOORAY!")
+    print("  YOU WIN. ROCK > SCISSORS. HOORAY!")
 elif user_choice == "paper" and computer_choice == "scissors":
-    print("  COMPUTER WINS. SORRY!")
+    print("  COMPUTER WINS. PAPER < SCISSORS. SORRY!")
 elif user_choice == "paper" and computer_choice == "rock":
-    print("  YOU WIN. HOORAY!")
-elif user_choice == "scissors" and computer_choice == "paper":
-    print("  COMPUTER WINS. SORRY!")
+    print("  YOU WIN.  PAPER > ROCK. HOORAY!")
 elif user_choice == "scissors" and computer_choice == "rock":
-    print("  YOU WIN. HOORAY!")
+    print("  COMPUTER WINS. SCISSORS < ROCK. SORRY!")
+elif user_choice == "scissors" and computer_choice == "rock":
+    print("  YOU WIN. SCISSORS > PAPER. SHOORAY!")
 
 # DISPLAY FINAL OUTPUTS / OUTCOMES
