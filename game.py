@@ -21,7 +21,9 @@ if user_choice not in valid_options:
     exit()
 
 # GENERATE COMPUTER SELECTION
-# 
+#  4. Add the "import random" to the top of the code
+#  5. Create a computer_choice variable to choose from the lsit at random.
+
 print("GENERATING...")
 
 computer_choice = random.choice(valid_options)
@@ -31,5 +33,25 @@ print("GENERATING...")
 print("COMPUTER CHOICE:", computer_choice)
 
 # DETERMINE THE WINNER
-# 
+#  6. Create conditional logic with possible outcomes:
+#     - rock beats scissors
+#     - paper beats rock
+#     - scissors beats paper
+#     - same selections is a tie
+
+if user_choice == computer_choice:
+    print("TIE")
+elif user_choice == "rock" and computer_choice == "paper":
+    print("  COMPUTER WINS. SORRY!")
+elif user_choice == "rock" and computer_choice == "scissors":
+    print("  YOU WIN. HOORAY!")
+elif user_choice == "paper" and computer_choice == "scissors":
+    print("  COMPUTER WINS. SORRY!")
+elif user_choice == "paper" and computer_choice == "rock":
+    print("  YOU WIN. HOORAY!")
+elif user_choice == "scissors" and computer_choice == "paper":
+    print("  COMPUTER WINS. SORRY!")
+elif user_choice == "scissors" and computer_choice == "rock":
+    print("  YOU WIN. HOORAY!")
+
 # DISPLAY FINAL OUTPUTS / OUTCOMES
