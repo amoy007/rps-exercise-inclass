@@ -2,16 +2,27 @@ print("Rock, Paper, Scissors, Shoot!")
 
 
 # CAPTURE INPUTS
-# 1. Create variables
-
+#  1. Create variables
+#  2. Make it user friendly by repeating the choice.
 user_choice = input("Please choose one of the following options 'rock', 'paper', or 'scissors' (without the quotes): ")
 print("-------------")
 print("You Chose: ", user_choice)
 
+
 # VALIDATE INPUTS
-# 
+#  3. Create a conditional statement and list to validate.
+
+if user_choice in ["rock", "paper", "scissors"]:
+    print("VALID")
+else:
+    print("INVALID SELECTION; PLEASE TRY AGAIN.")
+    exit()
+
 # GENERATE COMPUTER SELECTION
 # 
+print("GENERATING...")
+
+
 # DETERMINE THE WINNER
 # 
 # DISPLAY FINAL OUTPUTS / OUTCOMES
