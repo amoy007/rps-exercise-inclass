@@ -1,0 +1,41 @@
+***"Modules" are already part of Python.
+  ***Whereas "Packages" are 3rd party software that you need to download via Pip.
+
+VS Code // Python Programming Code!!!
+   - #: comment lines, will not be visible in the code
+   - shift + alt + [click on a line below]: will allow you to start typing the same thing across all the lines that were highlighted.
+   - .gitignore: file that specifies which files are hidden and ignored from github version histories.
+   - .env: special file where your credentials are kept safe and secure and will not be included in Github Version Control Manager (will not appear on other ppl's downloads or versions). You can specify any number of environment variables.
+   - 
+
+   - 
+   - 
+
+
+
+Vocabulary
+   - Clone: Download.
+   - Conda: allows us to install 3rd party packages like Python tools. Allows you to keep track of and install different versions of conda tools.
+   - Commit: a version of the program in Git. You can see all the versions or "commits" in Git just like you can see the version history of a google doc. Useful in case you need to revert/roll back bugs and prevent users from using bad software.
+   - Fork: Copy.
+   - Graphical User Interface (GUI): Instead of command lines, it offers a user friendly experience (like GitHub as a version control tool, instead of using Git Bash or Anaconda Prompt).
+   - Repository: Directory of code files
+
+
+
+Git Bash Command Lines:
+   - CD: when used alone, it will bring you back to the base location. When cd is followed by a location (example "cd ProPython\Github"), it wil drill down into a file.
+   - Clear: removes all code that was typed into your Git Bash screen.
+   - Conda activate XYZ-env: brings you into the environment you're testing your code in
+   - Conda deactivate: gets you out of the environment you're testing your code in
+   - Conda env list: shows all your conda environments.
+   - Conda --help: returns the manual that shows commands and specific help information.
+   - dir: list files in the current working directory
+   - exit(): gets out of the python shell or whatever program you are currently in.
+   - LS -AL: lists all files within the directory that you are currently in.
+   - PWD: returns your Present Working Directory.
+   - 
+   - 
+   - 
+   - 
+   - 
